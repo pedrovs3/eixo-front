@@ -35,6 +35,10 @@
     justify-content: space-between;
 }
 
+.trending-topics__list {
+    flex-wrap: wrap;
+}
+
 .trending-topics__buttons {
     width: 100%;
     padding: 15px 0;

@@ -1,0 +1,5 @@
+@media (max-width: 680px) {
+    .trending-topics, .content__container {
+        margin: 25px 30px!important;
+    }
+}
