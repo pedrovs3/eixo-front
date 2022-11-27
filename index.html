@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- <div class="loading"></div>-->
   <header>
     <div class="navbar">
       <img src="./assets/img/logo.png" alt="logo da empresa" class="navbar__logo">
@@ -32,7 +33,7 @@
     <section class="trending-topics">
       <h2>Trending Topics</h2>
       <ul class="list">
-        <li class="trending-topics__buttons">Fisica</li>
+        <li class="trending-topics__buttons"><a href="#fisic_content">Fisica</a></li>
         <li class="trending-topics__buttons">Matemática</li>
         <li class="trending-topics__buttons">Portugues</li>
         <li class="trending-topics__buttons">Inglês</li>
@@ -41,8 +42,22 @@
     <section class="content">
       <div class="content__container">
         <h3 class="content__title">Física</h3>
-        <ul class="list content__list">
-
+        <ul id="fisic_content" class="list content__list">
+        </ul>
+      </div>
+      <div class="content__container">
+        <h3 class="content__title">Matemática</h3>
+        <ul id="math_content" class="list content__list">
+        </ul>
+      </div>
+      <div class="content__container">
+        <h3 class="content__title">Inglês</h3>
+        <ul id="english_content" class="list content__list">
+        </ul>
+      </div>
+      <div class="content__container">
+        <h3 class="content__title">Português</h3>
+        <ul id="portuguese_content" class="list content__list">
         </ul>
       </div>
     </section>
