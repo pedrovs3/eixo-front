@@ -1,0 +1,56 @@
+.main-banner {
+    background: url(../../img/main_banner.jpg), rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-position: bottom center;
+    height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: whitesmoke;
+}
+
+.main-banner h1 {
+    max-width:700px;
+    font-size: 56px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+.trending-topics, .content__container {
+    margin: 25px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trending-topics__buttons {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(19, 123, 255, 0.6);
+    transition: all 300ms ease-in-out;
+}
+
+.trending-topics__buttons:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.content__list {
+    overflow-x: scroll;
+    align-items: start;
+    justify-content: start;
+}

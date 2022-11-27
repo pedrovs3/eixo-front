@@ -1,0 +1,14 @@
+@import url(./reset.css);
+@import url(./components/navbar.css);
+@import url(./components/main.css);
+@import url(./components/scrollbar.css);
+
+.accent-text {
+    color: #137bff;
+}
+
+.video {
+    border-radius: 14px;
+    min-width: 500px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
