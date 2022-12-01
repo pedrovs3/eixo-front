@@ -3,6 +3,19 @@
         margin: 25px 30px!important;
     }
 
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-banner h1 {
+        font-size: 2rem!important;
+    }
+
+    .video {
+        min-width: 50vw!important;
+        max-width: 80vw;
+    }
     .trending-topics__list {
         flex-wrap: wrap;
     }
