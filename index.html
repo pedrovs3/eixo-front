@@ -19,10 +19,10 @@
       <img src="./assets/img/logo.png" alt="logo da empresa" class="navbar__logo">
       <div class="navbar__input-container">
         <input type="search" name="search" id="content-search">
-        <button type="submit">Procurar</button>
+        <button onclick="handleButton()" type="button">Procurar</button>
       </div>
       <ul class="navbar__buttons-container">
-        <li class="navbar__button"><a href="#">Home</a></li>
+        <li class="navbar__button"><a onclick="location.reload()">Home</a></li>
       </ul>
     </div>
   </header>
@@ -33,13 +33,13 @@
     <section class="trending-topics">
       <h2>Trending Topics</h2>
       <ul class="list trending-topics__list">
-        <li class="trending-topics__buttons"><a href="#fisic_content">Fisica</a></li>
-        <li class="trending-topics__buttons">Matemática</li>
-        <li class="trending-topics__buttons">Portugues</li>
-        <li class="trending-topics__buttons">Inglês</li>
+        <li class="trending-topics__buttons"><a onclick="handleTrendingButton(this.textContent)" href="#fisic_content">Fisica</a></li>
+        <li class="trending-topics__buttons"><a onclick="handleTrendingButton(this.textContent)" href="#fisic_content">Matemática</a></li>
+        <li class="trending-topics__buttons"><a onclick="handleTrendingButton(this.textContent)" href="#fisic_content">Português</a></li>
+        <li class="trending-topics__buttons"><a onclick="handleTrendingButton(this.textContent)" href="#fisic_content">Inglês</a></li>
       </ul>
     </section>
-    <section class="content">
+    <section id="content" class="content">
       <div class="content__container">
         <h3 class="content__title">Física</h3>
         <ul id="fisic_content" class="list content__list">
